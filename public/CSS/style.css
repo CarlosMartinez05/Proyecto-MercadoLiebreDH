@@ -1,2 +1,107 @@
-.body{ background-color: red;
-background-size: cover}
+header{ 
+    
+    background-color: #EAC926;
+
+    margin:0 auto;
+
+    background-size: cover;
+
+    padding: auto;
+
+    margin-bottom: auto;
+}
+
+.truck{
+color: #39b54a; 
+ text-align: center;
+ padding: 10px;
+
+}
+
+.burger-menu{
+    color: white;
+    background-color: #1259c3;
+    
+
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    width: 2em;
+    margin: 0 auto;
+}
+
+
+.titulares{
+
+    font-size: 24px;
+    
+    text-align: center;
+}
+
+.iconos-footers{
+   
+
+    color: #1259c3;
+ 
+    font-size: 2em;
+
+  
+    
+}
+
+body{
+ margin: 0 auto;
+
+ background-color: #ebebeb;
+    
+ font-family: 'Roboto', sans-serif;
+
+
+}
+
+.precios{ 
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ofertas{
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.producto{
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+footer{
+    background-color: white;
+
+    text-align: center;
+
+
+}
+
+.titulares-footer{
+
+    font-size: 18px;
+}
+
+.secciones{
+
+    background-color: white;
+    background-size: contain;
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.imagen-oferta{
+    margin-bottom: 0px;
+}
+
+
+    
