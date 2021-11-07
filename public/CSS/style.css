@@ -9,6 +9,7 @@ header{
     padding: auto;
 
     margin-bottom: auto;
+
 }
 
 .truck{
@@ -100,8 +101,8 @@ footer{
     margin: 0 auto;
 }
 
-.imagen-oferta{
-    margin-bottom: 0px;
+#banner{
+    display: flex;
 }
 
 
