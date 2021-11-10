@@ -6,15 +6,32 @@ header{
 
     background-size: cover;
 
-    padding: auto;
+   
 
     margin-bottom: auto;
 
 }
 
+main{
+   text-align: center;
+    width: 90vw;
+    padding: 15px;
+   
+}
+
+
+.articulos{
+ border-top: solid 1px #ebebeb;
+ box-sizing: border-box;
+ padding: 10px;
+
+
+
+
+}
 .truck{
 color: #39b54a; 
- text-align: center;
+ 
  padding: 10px;
 
 }
@@ -22,7 +39,7 @@ color: #39b54a;
 .burger-menu{
     color: white;
     background-color: #1259c3;
-    
+    border-radius: 20%;
 
     text-align: center;
     margin-top: 10px;
@@ -61,19 +78,20 @@ body{
 }
 
 .precios{ 
-    text-align: center;
+    
     font-size: 18px;
     font-weight: bold;
 }
 
 .ofertas{
-    text-align: center;
+    
     font-size: 16px;
+    color: #39b54a; 
     
 }
 
 .producto{
-    text-align: center;
+   
     font-size: 16px;
     
 }
@@ -93,17 +111,34 @@ footer{
 }
 
 .secciones{
-
+ /*border: 0px solid white;*/
     background-color: white;
-    background-size: contain;
-    text-align: center;
-
-    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+    
 }
 
 #banner{
     display: flex;
 }
 
+@media screen and ( max-width: 362px) {
+ 
+    .producto{
+        display: none;
+    }
+    .seccion-header{
+        display: none;
+    }
+}
+ @media screen and (min-width: 362px) {
+     
+    .burger-menu{
+        display: none;
+    }
+    .secciones{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }}
 
     
