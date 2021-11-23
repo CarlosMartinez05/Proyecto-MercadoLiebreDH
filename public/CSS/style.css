@@ -1,12 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+
 header{ 
     
     background-color: #EAC926;
 
-    margin:0 auto;
+    
 
-    background-size: cover;
+    background-size: 100%;
 
-   
+   width: 100%;
 
     margin-bottom: auto;
 
@@ -19,20 +24,32 @@ main{
    
 }
 
+.logo-mercado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
 
 .articulos{
  border-top: solid 1px #ebebeb;
  box-sizing: border-box;
  padding: 10px;
-
-
-
+ text-align: left;
 
 }
+
+.fa-search{
+    background-color: white;
+    font-size: 1rem;
+}
 .truck{
-color: #39b54a; 
+    display: flex;
+    color: #39b54a; 
+    flex-direction: row-reverse;
+    padding: 10px;
+
  
- padding: 10px;
 
 }
 
@@ -56,6 +73,12 @@ color: #39b54a;
     text-align: center;
 }
 
+.ColorBotones{
+    background-color: #1259c3;
+    color: white;
+    border-radius: 15%;
+}
+
 .iconos-footers{
    
 
@@ -63,8 +86,6 @@ color: #39b54a;
  
     font-size: 2em;
 
-  
-    
 }
 
 body{
@@ -74,6 +95,7 @@ body{
     
  font-family: 'Roboto', sans-serif;
 
+   
 
 }
 
@@ -85,15 +107,15 @@ body{
 
 .ofertas{
     
-    font-size: 16px;
+    font-size: 1.5rem;
     color: #39b54a; 
     
 }
 
 .producto{
    
-    font-size: 16px;
-    
+    font-size: 1rem;
+    opacity: 0;
 }
 
 footer{
@@ -121,24 +143,71 @@ footer{
 
 #banner{
     display: flex;
+    width: 100%;
 }
 
-@media screen and ( max-width: 362px) {
- 
+
+
+    .precio-oferta{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and ( max-width: 361px) {
+    
+   
+    
+    .seccion-header{
+        display: none;}
+
     .producto{
         display: none;
     }
-    .seccion-header{
-        display: none;
-    }
-}
+ } 
+
+
  @media screen and (min-width: 362px) {
      
     .burger-menu{
         display: none;
     }
-    .secciones{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }}
-
     
+
+}
+
+@media screen and (min-width: 762px){
+    
+    .sections{
+        display: flex;
+      
+
+    }
+
+    .secciones{
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+  .sections .secciones{
+      flex-basis: 50%;
+  }
+
+  .secciones:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
+    box-sizing: border-box;
+   
+    }
+
+
+ .secciones:hover .producto{
+     opacity: 1;
+     transition: opacity 2ms;
+ }
+ .secciones:hover .truck{
+     rotate: -90deg;
+     
+ }
+}
