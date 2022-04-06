@@ -44,13 +44,28 @@ main{
     font-size: 1rem;
 }
 .truck{
-    display: flex;
-    color: #39b54a; 
-    flex-direction: row-reverse;
-    padding: 10px;
+    color:#39b54a;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 
- 
+    display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: relative;
+right: 20px;
+top: -15px;
 
+}
+@keyframes fa-truck {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(-45deg);}
+    100% { transform: rotate(-90deg);}
 }
 
 .burger-menu{
@@ -206,8 +221,8 @@ footer{
      opacity: 1;
      transition: opacity 2ms;
  }
+
  .secciones:hover .truck{
-     rotate: -90deg;
-     
+     transform: rotate(-90deg);
  }
 }

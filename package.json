@@ -1,0 +1,24 @@
+{
+  "name": "Proyecto-MercadoLiebreDH",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "startDev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosMartinez05/Proyecto-MercadoLiebreDH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosMartinez05/Proyecto-MercadoLiebreDH/issues"
+  },
+  "homepage": "https://github.com/CarlosMartinez05/Proyecto-MercadoLiebreDH#readme"
+}
